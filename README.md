@@ -10,7 +10,7 @@
      <td>Bottom Section of Email</td>
   </tr>
   <tr>
-    <td><img src="img/headspace-top-600px.png" width=202.5 ></td>
-    <td><img src="img/headspace-bottom-600px.png" width=202.5 ></td>
+    <td><img src="assets/img/headspace/headspace-top-600px.png" width=202.5 ></td>
+    <td><img src="assets/img/headspace//headspace-bottom-600px.png" width=202.5 ></td>
   </tr>
  </table>
