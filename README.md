@@ -10,7 +10,7 @@
      <td>Bottom Section of Email</td>
   </tr>
   <tr>
-    <td><img src="assets/img/headspace/headspace-top-600px.png" width=202.5 ></td>
-    <td><img src="assets/img/headspace//headspace-bottom-600px.png" width=202.5 ></td>
+    <td><img src="https://github.com/RBRuthie/Zurb_Head-Space_Transactional/blob/main/src/assets/img/headspace/headspace-top-600px.png?raw=true" width=202.5 ></td>
+    <td><img src="https://github.com/RBRuthie/Zurb_Head-Space_Transactional/blob/main/src/assets/img/headspace/headspace-bottom-600px.png?raw=true" width=202.5 ></td>
   </tr>
  </table>
