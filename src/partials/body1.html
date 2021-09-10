@@ -6,7 +6,7 @@
   <row class="container-subscription-row">
     <columns>
       <h3 class="nov">
-        November 10, 2021
+        {{headSpace.yearly-subscription.date}}
       </h3> 
     </columns>
   </row>
@@ -15,19 +15,20 @@
   <row class="container-subs-amount">
     <columns small="12" class="table-total center">
 
-          <h1 class="sub" >Subscription Type:
-            <span>Annual</span>
+          <h1>
+            {{headSpace.yearly-subscription.billing}}
+            <span>{{headSpace.yearly-subscription.billing-cycle}}</span>
           </h1>
 
-          <h1 class="sub" >Tax Inclusive Annual:
+          <h1> {{headSpace.yearly-subscription.tax-type}}
             <span>$95.88</span>
           </h1>
 
-          <h1 class="promo" >3 Months Free Discount
-            <span>-$23.97</span>
+          <h1>{{headSpace.yearly-subscription.discount-type}}
+            <span>{{headSpace.yearly-subscription.3-month-discount}}</span>
           </h1>
     <hr class="subs-hr">
-          <h1 class="total">Total: 
+          <h1 class="total">{{headSpace.yearly-subscription.total}} 
             <span>$71.91</span>
           </h1>
 
@@ -38,50 +39,53 @@
   <row class="container-billing-addr">
       <columns class="billing-yearly text-center" align="left" >
         <p class="pymt-title">
-          Account Payment Details
+          {{headSpace.account-pymt-details.title}}
         </p>
-              <h1 class="renew" >Renewal Update:
-                <span>Yearly</span>
+              <h1 class="renew" >{{headSpace.account-pymt-details.renewal}}
+                <span>{{headSpace.account-pymt-details.renewal-cycle}}</span>
               </h1>
             
-              <h1 class="card-info" >Card info:
-                <span>Last four ****3791</span>
+              <h1 class="card-info" >{{headSpace.account-pymt-details.payment-form-title}}
+                <span>{{headSpace.account-pymt-details.payment-details}}</span>
               </h1>
 
-              <h1 class="expire" >Exp. date:
-                <span>3/2020</span>
+              <h1 class="expire" > {{headSpace.account-pymt-details.payment-experation-title}}
+                <span>{{headSpace.account-pymt-details.payment-experation-date}}
+                </span>
               </h1>
             
           <hr class="pymt-hr">
 
-          <p class="renew-status">Renewal Status:
-              <span class="renew-approved">Approved</span>
+          <p class="renew-status">{{headSpace.account-pymt-details.payment-card-info}}
+              <span class="renew-approved">
+                {{headSpace.account-pymt-details.payment-status}}
+              </span>
           </p>
       </columns>
 
       <columns class="billing-addr text-center" >
             
-        <p>Billing Address
+        <p> {{headSpace.billing-address.title}}
           <span></span>
         </p>
 
-        <h1>Laura Flowers
+        <h1>{{headSpace.billing-address.customer-name}}
             <span></span>
         </h1>
       
-        <h1>150 Myst Rd
+        <h1>{{headSpace.billing-address.street-address}}
             <span></span>
         </h1>
       
-        <h1>Marlton, WA 10101
+        <h1>{{headSpace.billing-address.city-state-zip}}
             <span></span>
         </h1>
       
-        <h1>lauraflowers@yahoo.com
+        <h1>{{headSpace.billing-address.email}}
             <span></span>
         </h1>
       
-        <h1>1-703-641-1515
+        <h1>{{headSpace.billing-address.phone-number}}
             <span></span>
         </h1>
       </columns>
@@ -92,16 +96,16 @@
   <row class="container-pymt-disclaimer">
     <columns class="pymt-disclaimer">
         <p> 
-          If the credit card you have on file is no longer valid, we won't be able to renew your service. You can check out your card details in the 
+          {{headSpace.billing-address.pymt-disclaimer1}}
             <a href="https://www.headspace.com/login" target="blank">
-          account settings
+              {{headSpace.billing-address.pymt-disclaimer2}}
             </a>. 
           
-          If you'd like to cancel your subscription you can
+            {{headSpace.billing-address.pymt-disclaimer3}}
            <a href="https://www.headspace.com/login" target="blank" rel="noreferrer">
-            "cancel"
+            {{headSpace.billing-address.pymt-disclaimer4}}
            </a> 
-          anytime before your renewal date..
+           {{headSpace.billing-address.pymt-disclaimer5}}
         </p>
     </columns>
   </row>

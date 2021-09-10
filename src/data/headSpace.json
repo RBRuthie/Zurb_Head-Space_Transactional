@@ -14,8 +14,9 @@
     "billing": "Subscription Type:",
     "billing-cycle": "Annual",
     "tax-type": "Tax Inclusive Annual:",
-    "discount type": "3 Months Free Discount",
-    "3-month-discount": "-$23.97"
+    "discount-type": "3 Months Free Discount",
+    "3-month-discount": "-$23.97",
+    "total":"Total"
   },
   "account-pymt-details":{
     "title": "Account Payment Details",
@@ -30,12 +31,17 @@
 
   },
   "billing-address":{
+    "title":"Account Payment Details",
     "customer-name":"Laura Flowers",
     "street-address": "150 Myst Rd",
     "city-state-zip": "Marlton, WA 10101",
     "email": "lauraflowers@yahoo.com",
     "phone-number": "1-703-641-1515",
-    "pymt-disclaimer": "If the credit card you have on file is no longer valid, we won't be able to renew your service. You can check out your card details in the account settings . If you'd like to cancel your subscription you can cancel anytime before your renewal date.."
+    "pymt-disclaimer1": "If the credit card you have on file is no longer valid, we won't be able to renew your service. You can check out your card details in the",
+    "pymt-disclaimer2":"account settings.",
+    "pymt-disclaimer3":" If you'd like to cancel your subscription you can.",
+    "pymt-disclaimer4": "cancel",
+    "pymt-disclaimer5": "  anytime before your renewal date.."
   },
   "headspace-app": {
     "laptop-img":"",
