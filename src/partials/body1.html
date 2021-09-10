@@ -116,15 +116,15 @@
     <!--  image row -->
     <row class="container-img-app">
       <center class="img-app">
-        <img src="https://github.com/RBRuthie/Zurb_Head-Space_Transactional/blob/main/src/assets/img/headspace/3.png?raw=true" alt="laptop" >
+        <img src=" {{headSpace.headspace-app.laptop-img}}" alt="laptop" >
       </center>
     </row>
 
     <!--  open the app message -->
     <row class="container-explore-app ">
       <columns class="explore-app">
-        <p class="open">Open the app to explore Headspace app.</p>
-        <p>If you need us, we’re here for you.</p>
+        <p class="open">{{headSpace.headspace-app.memo-1}}</p>
+        <p>{{headSpace.headspace-app.memo-2}}</p>
       </columns>
     </row>
 
@@ -133,7 +133,7 @@
       <center class="button-app " >
         <a href="https://www.headspace.com/login" 
             class="btn" rel="noreferrer" target="blank">
-            Get some Headspace
+            {{headSpace.headspace-app.button}}
         </a>
       </center>
     </row>
@@ -142,11 +142,11 @@
     <row class="container-quote-app ">
       <columns class="quote">
           <h1 class="here">
-            "Here's to a healthier and happier you".
+            {{headSpace.headspace-app.quote}}
           </h1>
 
           <h2 class="headspace-team">
-              - The Headspace Team
+            {{headSpace.headspace-app.quote-author}}
           </h2>
       </columns>
     </row>
