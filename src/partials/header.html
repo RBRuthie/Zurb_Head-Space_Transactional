@@ -6,17 +6,17 @@
 <container class="container-header">
     <!-- 1st row: logo image -->
     <row>
-      <img class="logo" src="https://github.com/RBRuthie/Zurb_Head-Space_Transactional/blob/main/src/assets/img/headspace/hs-logo.png?raw=true" alt="headspace-logo">
+      <img  class="logo" src="{{headSpace.greeting.headspace_logo}}" alt="headspace-logo">
 
-      <img class="finance" src="https://github.com/RBRuthie/Zurb_Head-Space_Transactional/blob/main/src/assets/img/headspace/hs-finance.png?raw=true" alt="finance-logo">
+      <img class="finance" src="{{headSpace.greeting.finance_img}}" alt="finance-logo">
       <columns></columns>
     </row>
 
     <!-- 2nd row: intro:  -->
     <row>
       <columns small="12" >
-        <p>Hello Laura,</p>
-        <p>This is just a friendly reminder that your Headspace <b>account is set to renew on:</b>
+        <p>{{headSpace.greeting.introName}}</p>
+        <p>{{headSpace.greeting.reminder}} <b>{{headSpace.greeting.reminder2}}</b>
         </p>
       </columns>
     </row>
@@ -24,3 +24,4 @@
 
 
 
+<!-- Hello Laura, -->

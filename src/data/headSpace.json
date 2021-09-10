@@ -1,0 +1,53 @@
+
+
+{
+  "title" : "yearly renewal",
+  "greeting": {
+  "headspace_logo": "https://github.com/RBRuthie/Zurb_Head-Space_Transactional/blob/main/src/assets/img/headspace/hs-logo.png?raw=true",
+  "finance_img": "https://github.com/RBRuthie/Zurb_Head-Space_Transactional/blob/main/src/assets/img/headspace/hs-finance.png?raw=true",
+  "introName": "Hello Laura,",
+  "reminder":"This is just a friendly reminder that your Headspace",
+  "reminder2":"account is set to renew on:"
+  },
+  "yearly-subscription": {
+    "date": "November 10, 2021",
+    "billing": "Subscription Type:",
+    "billing-cycle": "Annual",
+    "tax-type": "Tax Inclusive Annual:",
+    "discount type": "3 Months Free Discount",
+    "3-month-discount": "-$23.97"
+  },
+  "account-pymt-details":{
+    "title": "Account Payment Details",
+    "renewal": "Renewal Update:",
+    "renewal-cycle": "Yearly",
+    "payment-form-title": "Card info:",
+    "payment-details":"Last four ****3791",
+    "payment-experation-title": "Exp. date:",
+    "payment-experation-date": "3/2020",
+    "payment-card-info":"Renewal Status:",
+    "payment-status": "Approved"
+
+  },
+  "billing-address":{
+    "customer-name":"Laura Flowers",
+    "street-address": "150 Myst Rd",
+    "city-state-zip": "Marlton, WA 10101",
+    "email": "lauraflowers@yahoo.com",
+    "phone-number": "1-703-641-1515",
+    "pymt-disclaimer": "If the credit card you have on file is no longer valid, we won't be able to renew your service. You can check out your card details in the account settings . If you'd like to cancel your subscription you can cancel anytime before your renewal date.."
+  },
+  "headspace-app": {
+    "laptop-img":"",
+    "memo-1":"Open the app to explore Headspace app.",
+    "memo-2":"If you need us, we’re here for you.",
+    "button":"Get some Headspace",
+    "quote": "Here's to a healthier and happier you.",
+    "quote-author": "- The Headspace Team"
+  }
+
+  
+  
+}
+
+
