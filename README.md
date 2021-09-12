@@ -1,7 +1,7 @@
 
 # Headspace Transactional HTML Email Responsive
   Used Headspace as theme, to create a responsive transactional email using:
-  HTML / CSS
+  Zurb Foundations for Emails / HTML / CSS
 
 
 <table>
